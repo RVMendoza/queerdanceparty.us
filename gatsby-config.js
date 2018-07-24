@@ -7,7 +7,7 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   siteMetadata: {
-    title: "RV Mendoza - Remote Front-end Developer from Detroit",
+    title: "Queer Dance Party - Detroit",
     author: "RV Mendoza",
   },
   plugins: [
