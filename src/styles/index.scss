@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
+@import "module-import.css";
+@import "./app.scss";
+@import "./header.scss";
+@import "./avatar.scss";
+@import "./bio.scss";
+@import "./section.scss";
+@import "./service-card.scss";
+@import "./icon.scss";
+@import "./button.scss";
+
+:root {
+	--blue: pink;
+	--ms-base: 1em;
+	--ms-ratio: var(--minor-third);
+
+	--space-n: 0;
+	--space-b: var(--ms-6);
+	--space-s: var(--ms-1);
+	--space-m: var(--ms0);
+	--space-l: var(--ms3);
+	--space-g: var(--ms6);
+
+	--color-black: #000000;
+	--color-white: #F6F6F6;
+	--color-theme: #D9C9DF;
+	--Grid-gutter-size: var(--ms-1);
+}
+
+body {
+	font-family: 'Assistant', sans-serif;
+	font-size: var(--ms0);
+	background-color: var(--color-white);
+}
+
+svg {
+	fill: currentColor;
+}
+
+.u-textBold {
+	font-weight: 700;
+}
+
+.u-indent {
+	margin-left: 7%;
+}
+
+.u-md-indent {
+	@media (--md-viewport) {
+		margin-left: 7%;
+	}
+}
+
+.u-responsiveImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: underline;
+  position: relative;
+	display: inline-block;
+	color: var(--color-white);
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	background-color: var(--color-theme);
+	color: var(--color-black);
+}
+
+.StickyAction {
+	position: fixed;
+	background-color: pink;
+	width: 100px;
+	border-radius: 50%;
+	height: 100px;
+	bottom: 5px;
+	right: 5px;
+	overflow: hidden;
+}
+
+.StickyAction-content {
+	color: var(--color-white);
+	width: 3rem;
+	height: 3rem;
+}
+
+.u-alignMiddleH {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.u-alignMiddleV {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.u-alignMiddleA {
+		position: relative;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+}
+
+.u-textUppercase {
+	text-transform: uppercase;
+}
+
+.Highlight {
+	color: var(--color-white);
+	background-color: var(--color-black);
+	padding-top: var(--ms-3);
+	padding-bottom: var(--ms-3);
+	padding-right: var(--ms-3);
+	padding-left: 7%;
+	display: inline-block;
+	font-size: var(--ms0);
+	max-width: 75%;
+}
+
+.Highlight--impact {
+	font-weight: 800;
+}
+
+.Highlight-smaller {
+	font-size: var(--ms-1);
+}
+
+.Headline {
+	font-size: var(--ms5);
+}
+
+.u-notFlush {
+	padding-left: 7%;
+}
