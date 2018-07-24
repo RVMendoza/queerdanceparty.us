@@ -8,7 +8,7 @@ class Bio extends React.Component {
   render() {
     return (
 			<main className="Bio">
-				<p>
+				<p className="u-paddingBm">
           Friday, September 7th @ El Club
 				</p>
 				<div className="Bio-highlight u-marginBm">
