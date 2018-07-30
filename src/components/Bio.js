@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from './Avatar.js'
 import MailIcon from '-!svg-react-loader?name=Mail!../../static/mail.svg';
 
-import party1 from './party1.png';
+import partyPic from './party1.png';
 
 class Bio extends React.Component {
   render() {
@@ -13,16 +13,16 @@ class Bio extends React.Component {
 				</p>
 				<div className="Bio-highlight u-marginBm">
 					<ul>
-						<li>
+						{/* <li>
 							<a href="#">
-								Get Tickets
+								Get Tickets (coming soon)
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								Facebook Event
+								Facebook Event (coming soon)
 							</a>
-						</li>
+						</li> */}
 						<li>
 							<a href="https://www.instagram.com/queerdanceparty/">
 								Instagram
@@ -30,7 +30,7 @@ class Bio extends React.Component {
 						</li>
           </ul>
 				</div>
-				<img src={party1} className="u-responsiveImage" />
+				<img src={partyPic} className="u-responsiveImage" />
 			</main>
     )
   }
