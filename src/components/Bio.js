@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from './Avatar.js'
 import MailIcon from '-!svg-react-loader?name=Mail!../../static/mail.svg';
 
-import partyPic from './party1.png';
+import partyPic from './party1.jpg';
 
 class Bio extends React.Component {
   render() {
