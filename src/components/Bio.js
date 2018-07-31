@@ -17,12 +17,12 @@ class Bio extends React.Component {
 							<a href="#">
 								Get Tickets (coming soon)
 							</a>
-						</li>
-						<li>
-							<a href="#">
-								Facebook Event (coming soon)
-							</a>
 						</li> */}
+						<li>
+							<a href="https://www.facebook.com/events/679358499066963/">
+								Facebook Event
+							</a>
+						</li>
 						<li>
 							<a href="https://www.instagram.com/queerdanceparty/">
 								Instagram
